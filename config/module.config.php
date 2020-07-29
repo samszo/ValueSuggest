@@ -154,6 +154,13 @@ return [
             'valuesuggest:unesco:unescothes' => \ValueSuggest\Service\UnescoDataTypeFactory::class,
             'valuesuggest:unesco:unesco6' => \ValueSuggest\Service\UnescoDataTypeFactory::class,
             'valuesuggest:unesco:floridablanca' => \ValueSuggest\Service\UnescoDataTypeFactory::class,
+
+            /* https://crisco2.unicaen.fr/des/synonymes */
+            'valuesuggest:crisco:synonymes' => \ValueSuggest\Service\CriscoDataTypeFactory::class,
+
+            /* IEML */
+            'valuesuggest:ieml:label' => \ValueSuggest\Service\IemlDataTypeFactory::class,
+
         ],
     ],
     'router' => [
